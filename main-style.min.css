@@ -324,7 +324,7 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 /* PROPERTY DETAILS PAGE */
 
 .content-wrapper {width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: right;}
-.tytul_ogloszenia {-moz-box-sizing: border-box;box-sizing: border-box;margin: 0;height: 100%;box-sizing: border-box;text-align: center;width: 100%;float: left;padding: 100px 0 0;background: url(images/cover.jpg) no-repeat center;background-size: cover;box-shadow: inset 0 0 0 1000px rgba(28, 33, 43, 0.5);}
+.tytul_ogloszenia {-moz-box-sizing: border-box;box-sizing: border-box;margin: 0;height: 100%;box-sizing: border-box;text-align: center;width: 100%;float: left;padding: 100px 0 0;background: url(https://image.ibb.co/gtN7d5/cover.jpg) no-repeat center;background-size: cover;box-shadow: inset 0 0 0 1000px rgba(28, 33, 43, 0.5);}
 .property_title {display: inline-block;position: relative;}
 .property_title .ribbon {margin: auto;line-height: 25px;font-size: 11px;position: relative;display: inline-block;left: auto;top: -12px;}
 .property_title h3 {color: #fff;font-size: 21px;text-align: center;font-weight: 600;display: block;padding: 5px 0;}
