@@ -1994,9 +1994,6 @@ slick-slide .entry-cover .button2 {clear: none!important;display: inline-block!i
 .featured_properties .slick-slide .entry-content .content a:hover {
     color: #555;
 }
-.slick-loading .slick-list {
-    background: #fff url(images/ajax-loader.gif) center center no-repeat
-}
 .slick-prev,
 .slick-next {
     line-height: 0;
