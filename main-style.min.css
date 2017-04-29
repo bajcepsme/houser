@@ -1,4 +1,4 @@
-﻿/* MAIN ELEMENTS */
+/* MAIN ELEMENTS */
 
 body {color: #fff;margin: 0;background: #F3f3f3;padding: 0;font: 1em/1.7em 'Muli', sans-serif;}
 body.page-template-page-moje-konto .mainpanel {display:none}
@@ -358,7 +358,7 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 
 /* DETAILS WRAPPER */
 
-.details_wrapper {width: 100%;padding: 20px 0;box-sizing: border-box;max-width: 1200px;margin: auto;overflow: hidden;}
+.details_wrapper {width: 100%;padding: 20px 0;box-sizing: border-box;max-width: 1200px;margin: auto;overflow: hidden;position: relative;}
 .details_wrapper h5 {font-size: 20px;color: #000;font-weight: 100;width: 100%;text-align: left;margin: 0 0 15px;}
 .ls {float: left;overflow: hidden;box-sizing: border-box;width: 65%;padding: 20px 0;}
 .rs {box-sizing: border-box;float: right;width: 34%;padding: 20px;}
@@ -405,7 +405,7 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 .connect i {margin-right: 20px;color: #ffa100;}
 .avatar {float: left;}
 .avatar img {border-radius: 100px;width: 150px;height: 150px;border: 1px solid #777}
-.featured {float: left;box-sizing: border-box;margin: 0;width: 100%;overflow: hidden;height: 480px;}
+.featured {float: left;box-sizing: border-box;margin: 0;width: 100%;overflow: hidden;height: 480px;position: relative;}
 .featured h5 {text-align:center; margin:0 0 25px; color:#555}
 .featured .slick-arrow {display:none!important}
 .lom {clear: both;overflow: hidden;background: url(ring.gif) 50% 50% no-repeat #fff;float: left;width: 100%;padding: 15px 25px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
