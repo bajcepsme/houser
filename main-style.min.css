@@ -2066,7 +2066,7 @@ slick-slide .entry-cover .button2 {clear: none!important;display: inline-block!i
 #popout .avatar:before {display:none;}
 #popout img {width: 50px!important;height:50px!important;}
 #popout .login-up:before {opacity: 0;margin: 20px 0 0;height: 0;display: block;}
-#popout .mainlogo {background: url(images/logo.png) center center no-repeat;background-size: 45px;border-bottom: 1px solid #444;float: none;width: 100%;}
+#popout .mainlogo {background-size: 45px;border-bottom: 1px solid #444;float: none;width: 100%;}
 #popout .mainlogo:after {display:none}
 #toggle {float: right;position: fixed;top: 20px;right: 20px;width: 24px;height: 24px;z-index: 999999;display: block!important;cursor: pointer;font-size: 25px;}
 #toggle i {color: #ddd}
