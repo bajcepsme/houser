@@ -1205,8 +1205,8 @@ input:focus~label,input:valid~label {opacity: 0;}
 .realsearch .jquery-custom-selectboxes-replaced-list span:first-child:hover {color: #2162ff!important;background: #fff!important}
 #searchResults.hidden {display: none}
 #ajaxReturn {width: 100%;margin: 0}
-#ajaxReturn ul.ajaxLoading {opacity: .7;}
-#ajaxReturn ul.ajaxLoading:before {content:"";position: relative;width: 100%;display: block;color:#333;background: url(images/searching.gif) no-repeat center top;z-index:99999999999999999;height: 40px;margin: 20px 0 10px;}
+#ajaxReturn ul.ajaxLoading {opacity: .5;}
+#ajaxReturn ul.ajaxLoading:before {content:"";position: relative;width: 100%;display: block;color:#333;background: url(http://image.ibb.co/jg4Xfk/searching.gif) no-repeat center top;z-index:99999999999999999;height: 100px;margin: 0 0 10px;}
 
 
 @-webkit-keyframes pulse {
