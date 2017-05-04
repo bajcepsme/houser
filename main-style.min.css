@@ -223,7 +223,7 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 /* WYSZUKIWARKA */
 
 .wyszukiwarka {float: right;width: 100%;}
-.heto {background: url(images/heto.jpg) no-repeat center center;height: 60px;width:100%;background-size: cover;box-shadow: inset 0 0 0 1000px rgba(34, 40, 47, 0.7);}
+.heto {background: url(https://image.ibb.co/htHPt5/heto.jpg) no-repeat center center;height: 60px;width:100%;background-size: cover;box-shadow: inset 0 0 0 1000px rgba(34, 40, 47, 0.7);}
 .wyszukiwarka .post_count {color: #fff;margin: 0 10px 0 0;font-weight: 700;background: #ffa100;padding: 4px 12px;line-height: 24px;border-radius: 2px;height: 24px;letter-spacing: 1px;font-size: 16px;width: auto;position: relative;top: -1px;display: inline-block;}
 .wyszukiwarka span.count {font-size: 24px;color: #000;width: 100%;display: block;}
 .wyszukiwarka span.count:after {content:"";border-bottom: 2px solid #ddd;width: 100%;max-width: 25px;display: block;margin: 20px 0;}
