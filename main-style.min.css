@@ -381,7 +381,7 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 .showContent {line-height: 1em;height: auto;}
 .showContent{height: auto;}
 .opis .show-more {text-align:center;}
-.opis .show-more a {color: #555;font-size: 15px;font-weight: 700;}
+.opis .show-more a {color: #0053f9;font-size: 15px;font-weight: 700;}
 .opis span {white-space: pre-line;color: #707070;font-weight: 100;font-size: 15px;line-height: 27px;}
 .opis p {font-size: 16px;color: #6e849a;font-weight: 100}
 .dane_kontaktowe {float: right;width: 100%;box-sizing: border-box;display: flex;justify-content: center;align-items: center;height: 100%;text-align: center;padding: 20px 0;background: #fff;margin: 0 0 20px;}
@@ -2132,7 +2132,7 @@ form.sml_subscribe input[type=submit] {margin:10px 0 0;}
 .ls, .rs {width:100%;}
 .theme-default .nivo-controlNav.nivo-thumbs-enabled a {width:33.333%!important}
 .details_wrapper h5 {font-size:20px;margin: 10px 0;}
-.podstawowe_informacje .row {flex: 1 0 50%;margin: 0;}
+.podstawowe_informacje .row {margin: 0 0 5px;width: 100%;}
 .facilities {width:50%}
 .okolica_wyposazenie {padding:20px}
 .lom {padding:10px}
