@@ -61,7 +61,7 @@ button, select {font-family:'Muli', sans-serif;}
 
 footer {float:right;background: #333;background-size: cover;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;display: flex;flex-direction: column;justify-content: center;}
 footer .quick {float: left;width: 25%;}
-footer .quick p {color: #999;font-size: 13px;margin: 12px 0;font-weight: 700;}
+footer .quick p {color: #777;font-size: 13px;margin: 12px 0;font-weight: 700;}
 footer .quick p:before {font-family:FontAwesome;margin: 0 10px 0 0;}
 footer .quick.mieszkania p:before {content:"\f041";}
 footer .quick.domy p:before {content:"\f015";}
@@ -76,14 +76,16 @@ form.sml_subscribe input {margin: 0;border: 1px solid rgba(255, 255, 255, 0.5);p
 form.sml_subscribe input[type=submit] {background: #0073ed;border: 2px solid #0073ed;color: #fff;font-weight: 100;margin: 0 0 0 10px;padding: 9px 20px;cursor: pointer;}
 form.sml_subscribe input[type=submit]:hover {background: #1a89ff;border-color: transparent;}
 footer .links {color: #fff;width: 100%;margin: 25px 0 0;padding: 25px 0 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: left;border-top: 1px solid #444;}
-footer .links a {color: #999;font-size: 13px;margin: 0;width: 16%;text-align: left;display: inline-block;}
+footer .links a {color: #777;font-size: 13px;margin: 0;width: 16%;text-align: left;display: inline-block;font-weight: 700;}
 footer .links a:hover {color: #fff;}
 .footer-wrapper {float: left;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;max-width: 1200px;margin: auto;padding: 25px 0;display: inline-table;}
 .footer-wrapper .summit {display: inline-block;width: 100%;border-bottom: 1px solid #444;padding: 0 0 20px;margin: 0 0 20px;}
 .footer-wrapper .summit .minilogo {background: url(https://image.ibb.co/ja5Lfk/logo_min.png) center center no-repeat;height: 50px;width: 60px;background-size: 60px;margin: auto;}
-.footer-wrapper .summit span {color: #999;font-size: 14px;text-align: center;display: block;letter-spacing: 0.2px;}
+.footer-wrapper .summit span {color: #999;font-size: 14px;text-align: center;display: block;letter-spacing: 0.2px;margin: 0;}
 .footer-wrapper .summit span a {color: #ffb73d;font-weight: 700;line-height: 4;}
-.copyright {width: 100%;float: left;/* border-top: 1px solid #444; */padding: 10px 0;background: #222;}
+.footer-wrapper span {color: #555;text-align: center;width: 100%;margin: 20px 0 0;float: left;font-size: 12px;letter-spacing: 1px;font-weight: 700;}
+.footer-wrapper span a{color:#999}
+.copyright {width: 100%;float: left;padding: 10px 0;background: #222}
 .copyright p {color: #999;text-align: center;font-size: 12px;margin: 0;letter-spacing: 1px;font-weight: 700;}
 
 /* OTHER ELEMENTS */
