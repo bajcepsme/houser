@@ -1,6 +1,6 @@
 /* MAIN ELEMENTS */
 
-body {color: #fff;margin: 0;background: #F3f3f3;padding: 0;font: 1em/1.7em 'Muli', sans-serif;}
+body {color: #fff;margin: 0;background: #f3f3f3;padding: 0;font: 1em/1.7em 'Muli', sans-serif;}
 body.page-template-page-moje-konto .mainpanel {display:none}
 body.page-template-page-moje-konto {background:#eee!important}
 
@@ -101,8 +101,8 @@ button#euCookieAcceptWP {background: #ddd!important;border: none;color: #000!imp
 .ad2 {padding: 0 0 25px;float: left;width: 100%;display: flex;justify-content: center;}
 .ad_wrp {position: relative;width: 100%;float: left;padding: 50px 0;border-top: 1px solid #e9e9e9;border-bottom: 1px solid #e9e9e9;}
 .ribbon {position: absolute;z-index: 99999;top: 15px;left: 15px;font-size: 11px;line-height: 24px;}
-.ribbon p {margin:0;padding: 0px 10px;}
-.ribbon [data-content="Sprzedaż"] {background: #007cff;color: #fff;}
+.ribbon p {margin:0;padding: 0px 10px;border-radius: 2px;}
+.ribbon [data-content="Sprzedaż"] {background: #006cff;color: #fff;}
 .ribbon [data-content="Dzierżawa"] {background: #ff3b5d;}
 .ribbon [data-content="Do wynajęcia"], .ribbon [data-content="Wynajem"] {background: #279e2c;}
 .ribbon [data-content="Do wynajęciaDo wynajęcia"] {background: #279e2c;font-size: 0px;height: 24px;}
@@ -326,26 +326,25 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 /* PROPERTY DETAILS PAGE */
 
 .content-wrapper {width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: right;}
-.tytul_ogloszenia {-moz-box-sizing: border-box;box-sizing: border-box;margin: 0;height: 100%;box-sizing: border-box;text-align: center;width: 100%;float: left;padding: 100px 0 0;background: url(https://image.ibb.co/gtN7d5/cover.jpg) no-repeat center;background-size: cover;box-shadow: inset 0 0 0 1000px rgba(28, 33, 43, 0.5);}
-.property_title {display: inline-block;position: relative;}
-.property_title .ribbon {margin: auto;line-height: 25px;font-size: 11px;position: relative;display: inline-block;left: auto;top: -12px;}
-.property_title h3 {color: #fff;font-size: 21px;text-align: center;font-weight: 600;display: block;padding: 5px 0;}
-.property_title span.address {color: #eee;padding: 0;display: block;margin: 0;text-align: center;width: 100%;font-size: 13px;}
-.property_title span.address i {margin: 0 7px 0 0;color: #ffa100;}
-.property_price {padding: 20px 0 0;}
-.property_price:before {content:"";border-top: 1px solid white;width:100%;max-width: 35px;display: block;margin: auto;top: -10px;position: relative;}
+.tytul_ogloszenia {-moz-box-sizing: border-box;box-sizing: border-box;margin: 60px 0 0;height: 100%;box-sizing: border-box;text-align: center;width: 100%;float: left;padding: 55px 10% 10px;background: url(http://wallpaper-gallery.net/images/apartment-wallpaper/apartment-wallpaper-13.jpg) no-repeat center -500px;background-size: cover;box-shadow: inset 0 0 0 1000px rgba(28, 33, 43, 0.6);}
+.property_title {position: relative;float: left;}
+.property_title .ribbon {line-height: 25px;font-size: 11px;position: relative;left: 0;top: -10px;width: auto;display: flex;}
+.property_title h3 {color: #fff;font-size: 21px;text-align: left;font-weight: 100;display: block;padding: 5px 0;}
+.property_title span.address {color: #eee;padding: 0;display: block;margin: 0;text-align: left;width: 100%;font-size: 13px;}
+.property_title span.address i {margin: 0 7px 0 0;color: #4285f5;}
+.property_price {padding: 0;float: right;margin: 10px 0 0;}
 .property_price i {margin:0 10px; color:#ffffff;}
-.property_price span.price {color: #fff;font-size: 20px;padding: 0;-moz-box-sizing: border-box;box-sizing: border-box;margin: 0;font-weight: 100;width: 100%;}
+.property_price span.price {color: #fff;font-size: 30px;padding: 0;-moz-box-sizing: border-box;box-sizing: border-box;margin: 0;font-weight: 100;width: 100%;float: right;text-align: right;}
 .property_price span.price b {margin: 0 0 0 5px;font-weight: 100;font-size: 16px;}
-.property_price span.price2 {color: #ffa100;margin: 0;width: 100%;font-weight: 800;font-size: 15px;}
+.property_price span.price2 {color: #aaa;margin: 0;width: 100%;font-weight: 800;font-size: 15px;float: right;text-align: right;}
 .property_price span.price2 b {font-size: 16px;font-weight: 100;color: #fff;}
 .property_price span.price i {position: relative;font-size: 21px;border-radius: 50%;font-weight: 600;padding: 0 0 0 10px;}
 
 /* TOPNAV */
 
-.topnav {padding: 10px 15%;display: block;width: 100%;float: left;box-sizing: border-box;position: relative;margin: 60px 0 0;border-top: 1px solid rgba(255, 255, 255, 0.3);}
+.topnav {padding: 10px 0;display: block;width: 100%;float: left;box-sizing: border-box;position: relative;margin: 20px 0 0;border-top: 1px solid rgba(255, 255, 255, 0.3);}
 .breadcrumb {color: #ddd;font-size: 12px;letter-spacing: 1px;float: left;font-weight: 100;}
-.breadcrumb a {color: #fff;font-size: 14px;font-weight: 700;}
+.breadcrumb a {color: #fff;font-size: 14px;}
 .breadcrumb a:hover {color: #ffa100;}
 .breadcrumb i {font-size: 14px;}
 .topnav b button {border:0;margin: 0 0 0 50px;background: 0;padding: 0;position: relative;top: 2px;}
@@ -353,8 +352,8 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 .topnav b button i:hover {opacity:0.7;}
 .share_it {box-sizing: border-box;float: right;}
 .share_it i {color: #ddd;margin: 0 10px 0 0;}
-.share_it span {margin: 0 20px 0 0;width: 100%;font-size: 12px;color: #ddd;}
-.share_it span button {margin: 0 20px 0 0;border: 0;background: 0;color: #ddd;cursor: pointer;font-size: 12px;}
+.share_it span {margin: 0 20px 0 0;width: 100%;font-size: 12px;color: #ddd;font-weight: 700;letter-spacing: 1px;}
+.share_it span button {margin: 0 20px 0 0;border: 0;background: 0;color: #ddd;cursor: pointer;font-size: 12px;font-weight: 700;letter-spacing: 1px;}
 .share_it a i {color: rgb(255, 255, 255);margin: 0 0 0 25px;font-size: 16px;}
 .share_it a i:hover {color: #ffa100;}
 
