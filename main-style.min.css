@@ -365,7 +365,7 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 .rs {box-sizing: border-box;float: right;width: 34%;padding: 20px;}
 .galeria {background: url(http://image.ibb.co/kCcSVk/ring.gif) 50% 50% no-repeat #ffffff;width: 100%;margin: 0;min-height: 100px;box-sizing: border-box;position: relative;padding: 0 0 50px;height: 50vh;}
 .galeria .theme-default .nivoSlider {box-shadow:none;margin:0;background: 0;}
-.galeria img {opacity:0;background: #FFF;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;left: 0;top: 0;box-shadow: none;height: 50vh!important;width: 100%;}
+.galeria img {background: #FFF;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;left: 0;top: 0;box-shadow: none;height: 50vh!important;width: 100%}
 .theme-default .nivo-controlNav.nivo-thumbs-enabled {width: 100%!important;padding: 0;overflow: auto;float:left;margin: 0;background: #fff;padding: 5px;}
 .theme-default .nivo-controlNav.nivo-thumbs-enabled a {margin: 0!important;position: relative;box-sizing: border-box;width: 12.5%!important;float: left!important;height: 20%!important;opacity: .4;text-align:left;display:block;border: 3px solid #fff;}
 .theme-default .nivo-controlNav.nivo-thumbs-enabled a:hover {opacity: 0.8;}
