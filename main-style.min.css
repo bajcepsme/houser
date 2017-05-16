@@ -326,7 +326,7 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 /* PROPERTY DETAILS PAGE */
 
 .content-wrapper {width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: right;}
-.tytul_ogloszenia {-moz-box-sizing: border-box;box-sizing: border-box;margin: 60px 0 0;height: 100%;box-sizing: border-box;text-align: center;width: 100%;float: left;padding: 55px 10% 10px;background: url(http://wallpaper-gallery.net/images/apartment-wallpaper/apartment-wallpaper-13.jpg) no-repeat center -500px;background-size: cover;box-shadow: inset 0 0 0 1000px rgba(28, 33, 43, 0.6);}
+.tytul_ogloszenia {-moz-box-sizing: border-box;box-sizing: border-box;margin: 60px 0 0;height: 100%;box-sizing: border-box;text-align: center;width: 100%;float: left;padding: 55px 10% 10px;background: url(https://image.ibb.co/dvgqO5/topnav7.png) no-repeat center;background-size: cover;}
 .property_title {position: relative;float: left;}
 .property_title .ribbon {line-height: 25px;font-size: 11px;position: relative;left: 0;top: -10px;width: auto;display: flex;}
 .property_title h3 {color: #fff;font-size: 21px;text-align: left;font-weight: 100;display: block;padding: 5px 0;}
