@@ -409,8 +409,8 @@ form.sml_subscribe :-ms-input-placeholder {color: #333;font-family:'Muli', sans-
 .featured {float: left;box-sizing: border-box;margin: 0;width: 100%;overflow: hidden;height: 480px;position: relative;}
 .featured h5 {text-align:center; margin:0 0 25px; color:#555}
 .featured .slick-arrow {display:none!important}
-.lom {clear: both;overflow: hidden;background: url(http://image.ibb.co/kCcSVk/ring.gif) 50% 50% no-repeat #fff;float: left;width: 100%;padding: 15px 25px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-.lom .map {height: 250px}
+.lom {clear: both;overflow: hidden;background: url(http://image.ibb.co/kCcSVk/ring.gif) 50% 50% no-repeat #fff;float: left;width: 100%;padding: 15px 25px 25px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.lom .map {height: 350px;}
 .okolica_wyposazenie {overflow: hidden;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;float: left;padding: 25px;margin: 0 0 20px;background: #fff;}
 .facilities {float: left;position: relative;width: 25%;box-sizing: border-box;margin: 15px 0;}
 .facilities p {color: #333;font-size: 13px;margin: 0;font-weight: 700;}
@@ -2143,10 +2143,10 @@ form.sml_subscribe input[type=submit] {margin:10px 0 0;}
 footer .quick {display:none}
 footer .sml_subscribe {display: none}
 footer .links {padding: 20px 10%;border: 0;margin: 0}
-footer .links a {width: 48%;}
+footer .links a {width: 48%}
 .footer-wrapper .summit span a {line-height:1}
 .intop {padding:0}
-.my_account .sidebar, .my_account .content {width:100%;position: relative;}
+.my_account .sidebar, .my_account .content {width:100%;position: relative}
 .post-item {width:100%; margin:0 0 25px}
 .search_city ::-webkit-input-placeholder {color: #999;font-size: 14px;font-weight: 700;letter-spacing: 0;text-transform: none;font-family:'Muli', sans-serif;}
 .search_city :-ms-input-placeholder {color: #999;font-size: 14px;font-weight: 700;letter-spacing: 0;text-transform: none;font-family:'Muli', sans-serif;}
